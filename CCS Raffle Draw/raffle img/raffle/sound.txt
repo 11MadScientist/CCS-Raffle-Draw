@@ -1,0 +1,8 @@
+using System.Media;
+
+SoundPlayer sound = new SoundPlayer();
+
+sound.SoundLocation = @"";
+sound.Play();
+sound.PlayLoop();
+sound.Stop();
